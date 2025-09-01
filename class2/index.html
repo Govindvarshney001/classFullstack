@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhabha</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    nav {
+      background-color: #06062d;
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 200px;   /* fixed width */
+      height: 100vh;  /* full height */
+    }
+
+    nav a {
+      margin: 40px;
+      text-decoration: none;
+      color: #fff;
+      display: block;
+
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Push content to right side */
+    .content {
+      margin-left: 220px;  /* must be >= nav width */
+      padding: 20px;
+    }
+
+    h1 { color: #333;  background-color: #7285d2;}
+    h2 { color: #555; }
+    h3 { color: #777; }
+    p  { color: #666; }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="">Home</a>
+    <a href="">Starters</a>
+    <a href="">Main course</a>
+    <a href="">Contact</a>
+  </nav>
+
+  <div class="content">
+    <h1>Dhabha</h1>
+    <h2>Menu</h2>
+
+    <h2>Our Specials</h2>
+    <div>
+         <h3>Margherita Pizza</h3>
+        <div style="display: flex; align-items: center; width: 500px; gap: 20px ; border: 1px solid black;">
+             <img  style="height: 100px; width: 100px;" src="https://images8.alphacoders.com/369/369063.jpg" alt="">
+            <p>Classic pizza with fresh cheese</p>
+        </div>
+    </div>
+    <h3>Paneer Butter Masala</h3>
+     <div style="display: flex; align-items: center; width: 500px; gap: 20px ; border: 1px solid black;">
+             <img  style="height: 100px; width: 100px;" src="https://bing.com/th?id=OSK.be0c7272acc80cb4c4d016157860369d" alt="">
+            <p>Classic pizza with fresh cheese</p>
+        </div>
+    <p>Rich creamy curry with paneer</p>
+    <h3>Dal Tadka</h3>
+        <div style="display: flex; align-items: center; width: 500px; gap: 20px ; border: 1px solid black;">
+                <img  style="height: 100px; width: 100px;" src="https://bing.com/th?id=OSK.e7a293d0d7ab58e1f3023b15b4b23390" alt="">
+                <p>Classic pizza with fresh cheese</p>
+            </div>
+    <p>Traditional lentils tempered with spices</p>
+  </div>
+</body>
+</html>
